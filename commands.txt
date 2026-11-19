@@ -1,0 +1,99 @@
+    1  $git clone https://github.com/artnowart/EPA-2026-2027.git
+    2  sudo apt-get install git-all
+    3  $git clone https://github.com/artnowart/EPA-2026-2027.git
+    4  $git clone https://github.com/artnowart/EPA-2026-2027
+    5  sudo apt-get install git-all
+    6  $git clone https://github.com/artnowart/EPA-2026-2027
+    7  git clone https://github.com/artnowart/EPA-2026-2027
+    8  cd EPA-2026-2027 
+    9  mkdir lab02
+   10  cd lab02
+   11  touch myNewFile.txt
+   12  echo "Your text here" > myNewFile2.txt
+   13  git config --global user.name "artnowart" 
+   14  git add .
+   15  git commit -m "Its Done e" 
+   16  git push origin main 
+   17  history
+   18  history
+   19  ls -la ~ | grep history
+   20  find ~ -maxdepth 2 -type f \( -name "*history*" -o -name "*.bash*" \) -ls
+   21  ls -lah ~/Downloads
+   22  find ~ -type f -mtime -1 -ls 2>/dev/null
+   23  less ~/.bash_history
+   24  cd
+   25  ls
+   26  cd ~/EPA-2026-2027
+   27  pwd
+   28  mkdir lab03
+   29  cd lab03
+   30  ls
+   31  ls
+   32  cd ~/EPA-2026-2027/lab03
+   33  ls
+   34  nano template_script.sh
+   35  ls
+   36  nano template_script.sh
+   37  chmod u+x template_script.sh
+   38  ./template_script.sh
+   39  ./template_script.sh hello
+   40  ./template_script.sh
+   41  nano template_script.sh
+   42  chmod u+x lab03_exercise1.sh
+   43  nano lab03_exercise1.sh
+   44  nano template_script.sh
+   45  chmod u+x lab03_exercise1.sh
+   46  ./lab03_exercise1.sh 15
+   47  cp template_script.sh lab03_exercise1.sh
+   48  ./lab03_exercise1.sh 15
+   49  nano lab03_exercise1.sh
+   50  chmod u+x lab03_exercise1.sh
+   51  ./lab03_exercise1.sh 15
+   52  nano lab03_exercise1.sh
+   53  ./lab03_exercise1.sh 15
+   54  cd
+   55  cd ~
+   56  ls
+   57  cd EPA-2026-2027
+   58  ls -la
+   59  cd lab03
+   60  ls -la
+   61  ls -la lab03
+   62  ls -la template_script.sh
+   63  nano lab03_exercise1.sh
+   64  cat lab03_exercise1.sh
+   65  nano lab03_exercise1.sh
+   66  bash template_script.sh
+   67  nano lab03_exercise1.sh
+   68  bash template_script.sh
+   69  nano lab03_exercise1.sh
+   70  chmod u+x lab03_exercise1.sh
+   71  ./lab03_exercise1.sh 15
+   72  ./lab03_exercise1.sh 10000
+   73  nano lab03_exercise1.sh
+   74  cp lab03_exercise1.sh lab03_exercise2.sh
+   75  ls -la
+   76  nano lab03_exercise2.sh
+   77  cp lab03_exercise2.sh lab03_exercise3.sh
+   78  ls
+   79  nano lab03_exercise3.sh
+   80  chmod u+x lab03_exercise3.sh
+   81  ./lab03_exercise3.sh 100 1
+   82  touch README.md
+   83  nano README.md
+   84  cat README.md
+   85  git status
+   86  git config --global user.name
+   87  git config --global user.email
+   88  git add .
+   89  git commit -m "Complete Lab 03"
+   90  git push origin main
+   91  cd ~/EPA-2026-2027
+   92  ls -la
+   93  history
+   94  touch "commands.txt"
+   95  ls
+   96  echo history > commands.txt
+   97  cat commands.txt
+   98  find . -print
+   99  history > commands.txt
